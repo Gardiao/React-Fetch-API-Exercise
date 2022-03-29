@@ -1,0 +1,21 @@
+
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container div {
+  border: 1px Solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+.container div:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
